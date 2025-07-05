@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas dan svg</title>
+</head>
+<body>
+    <h3>Canvas</h3>
+    <canvas id="myCanvas" width="200" height="100"></canvas>
+
+    <h3>SVG</h3>
+    <svg> width="100" height="100">
+        <circle cx="50" cy="50" r="40" fill="red"></circle>
+
+    </svg>
+
+    <img src="undraw_recording_1q6x.svg" alt="">
+
+    <script>
+        let canvas = document.getElementById("myCanvas");
+        let ctx = canvas.getContext("2d");
+        cxt.fillStyle = "red";
+        ctx.fillRect(10, 10, 50, 50);
+    </script>
+
+    
+
+
+</body>
+</html>
